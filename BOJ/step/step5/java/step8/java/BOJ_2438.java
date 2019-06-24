@@ -2,7 +2,7 @@ import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-public class BOJ_2441 {
+public class BOJ_2438 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
@@ -10,13 +10,9 @@ public class BOJ_2441 {
         int n = Integer.parseInt(br.readLine());
 
         for(int i=1; i<=n; i++) {
-            for(int j=1; j<i; j++) {
-                sb.append(" ");
-            }
-            for(int j=i; j<=n; j++) {
+            for(int j=1; j<=i; j++) {
                 sb.append("*");
             }
-
             sb.append("\n");
         }
 
@@ -25,4 +21,4 @@ public class BOJ_2441 {
     }
 }
 
-// https://www.acmicpc.net/problem/2441
+// https://www.acmicpc.net/problem/2438
