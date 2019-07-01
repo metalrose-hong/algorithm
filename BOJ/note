@@ -10,7 +10,11 @@ String.valueOf(c);
 # 배열 생성 및 0으로 초기화
 int[] arr = new int[9];
 
-
 # StringTokenizer
 StringTokenizer st = new StringTokenizer(str);
 st.nextToken();
+
+# 배열 정렬하기
+import java.util.Arrays;
+
+Arrays.sort(arr);
